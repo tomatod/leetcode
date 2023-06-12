@@ -7,3 +7,4 @@ I try [this list](https://leetcode.com/list/xo2bgr0r/)
 | 2 | Problem List | Medium | ok |
 | 3 | Longest Substring Without Repeating Characters | Medium | ok |
 | 4 | Zigzag Conversion | Medium | ok |
+| 5 | String to Integer | Medium | ok |
