@@ -8,4 +8,5 @@ I try [this list](https://leetcode.com/list/xo2bgr0r/)
 | 3 | Longest Substring Without Repeating Characters | Medium | ok |
 | 4 | Zigzag Conversion | Medium | ok |
 | 5 | String to Integer | Medium | ok |
-| 6 | Valid Parentheses | easy | ok |
+| 6 | Valid Parentheses | Easy | ok |
+| 7 | Generate Parentheses | Medium | ok (not good) |
