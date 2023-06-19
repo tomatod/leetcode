@@ -24,9 +24,21 @@ class Solution:
     max_index = len(nums) - 1
     min_index = 0
     while max_index >= min_index:
-      marker_index = math.floor((max_index + min_index) / 2)
+      marker_index = (max_index + min_index) // 2
       marker = nums[marker_index]
       if target == marker: return marker_index
-      if target > marker:  min_index = marker_index + 1
+      if target >  marker: min_index = marker_index + 1
       else:                max_index = marker_index - 1
     return min_index
+
+# half-open ver
+class Solution:
+  def searchInsert(self, nums: List[int], target: int) -> int:
+    ng = len(nums)
+    ok = 0
+    while ng - ok > 1:
+      mid = (ng + ok) // 2
+      if target < nums[mid]: ng = mid
+      else:                  ok = mid
+    if target > nums[ok]: return ok + 1
+    else:                 return ok
