@@ -13,3 +13,4 @@ I try [this list](https://leetcode.com/list/xo2bgr0r/)
 | 8 | Next Permutation | Medium | ok |
 | 9 | Search in Rotated Sorted Array | Medium | ok |
 | 10 | Search Insert Position | Easy | ok |
+| 11 | Combination Sum | Medium | ok (not good) |
